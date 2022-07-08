@@ -2,37 +2,107 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav li {
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* z-index: 9999; */
+  width: 100%;
+  background-color:burlywood;
 }
 
-.App-link {
-  color: #61dafb;
+/* .nav-links:hover {
+    background-color: brown;
+    color: black;
+} */
+
+.nav-links {
+  float: center;
+  /* position: fixed; */
+  display: block;
+  color:saddlebrown;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 30px;
+  width: auto;
+  margin-right: 2rem;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  font-family: fantasy;
+}
+
+h3 {
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif
+}
+
+
+
+a {
+  color: rgb(41, 215, 231);
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.mcu {
+  color: red;
+  font-size: 30px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.icbinp {
+  color: rgb(204, 204, 10);
+  font-size: 30px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.blackjack {
+  color: green;
+  font-size: 30px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.about {
+  margin-top: 160px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.chloe {
+  font-family: fantasy;
+  font-size: 50px;
+  background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80");
+  padding: 60px;
+  min-height: 150px;
+}
+
+.home {
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.projects {
+  margin-top: 160px;
+  font-family: 'Times New Roman', Times, serif;
+  font-family: fantasy;
+  font-size: 50px;
+  background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80");
+  padding: 60px;
+  min-height: 150px;
 }
