@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
-  "homepage": "http://cxjsparks.github.io/Portfolio",
   "version": "0.1.0",
+  "homepage": "http://cxjsparks.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -22,6 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
